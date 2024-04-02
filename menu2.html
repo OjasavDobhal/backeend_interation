@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu2.css">
+    <title>Menu Page</title>
+</head>
+<body>
+    <div class="menu">
+        <h1>Menu</h1>
+        <div class="item" id="MilkTea">
+            <h2>Milk Tea</h2>
+            <p class="price">Price: ₹100</p>
+            <button onclick="addToCart('Milk Tea', 100)">Add to Cart</button>
+        </div>
+        <div class="item" id="BlackTea">
+            <h2>Black Tea</h2>
+            <p class="price">Price: ₹150</p>
+            <button onclick="addToCart('Black Tea', 150)">Add to Cart</button>
+        </div>
+        <div class="item" id="hotCoffee">
+            <h2>Hot Coffee</h2>
+            <p class="price">Price: ₹53.00</p>
+            <button onclick="addToCart('Hot Coffee', 53)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="mangoShake">
+            <h2>Mango Shake</h2>
+            <p class="price">Price: ₹85.00</p>
+            <button onclick="addToCart('Mango Shake', 85)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="coldCreamCoffee">
+            <h2>Cold Cream Coffee</h2>
+            <p class="price">Price: ₹92.00</p>
+            <button onclick="addToCart('Cold Cream Coffee', 92.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="coldCreamCoffeeIceCream">
+            <h2>Cold Cream Coffee with Ice Cream</h2>
+            <p class="price">Price: ₹116.00</p>
+            <button onclick="addToCart('Cold Cream Coffee with Ice Cream', 116.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="chocolateMilk">
+            <h2>Chocolate Milk</h2>
+            <p class="price">Price: ₹85.00</p>
+            <button onclick="addToCart('Chocolate Milk', 85.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="roohafzaSharbat">
+            <h2>Roohafza Sharbat</h2>
+            <p class="price">Price: ₹81.00</p>
+            <button onclick="addToCart('Roohafza Sharbat', 81.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="roohafzaMilkShake">
+            <h2>Roohafza Milk Shake</h2>
+            <p class="price">Price: ₹104.00</p>
+            <button onclick="addToCart('Roohafza Milk Shake', 104.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="espressoCoffee">
+            <h2>Espresso Coffee</h2>
+            <p class="price">Price: ₹69.00</p>
+            <button onclick="addToCart('Espresso Coffee', 69.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="lemonSquash">
+            <h2>Lemon Squash</h2>
+            <p class="price">Price: ₹69.00</p>
+            <button onclick="addToCart('Lemon Squash', 69.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="badamShake">
+            <h2>Badam Shake</h2>
+            <p class="price">Price: ₹85.00</p>
+            <button onclick="addToCart('Badam Shake', 85.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="chocolateShake">
+            <h2>Chocolate Shake</h2>
+            <p class="price">Price: ₹85.00</p>
+            <button onclick="addToCart('Chocolate Shake', 85.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="strawberryShake">
+            <h2>Strawberry Shake</h2>
+            <p class="price">Price: ₹85.00</p>
+            <button onclick="addToCart('Strawberry Shake', 85.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="kesarShake">
+            <h2>Kesar Shake</h2>
+            <p class="price">Price: ₹85.00</p>
+            <button onclick="addToCart('Kesar Shake', 85.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="bananaShake">
+            <h2>Banana Shake</h2>
+            <p class="price">Price: ₹85.00</p>
+            <button onclick="addToCart('Banana Shake', 85.00)">Add to Cart</button>
+        </div>
+
+        <!-- Soft Drink Section -->
+        <div class="item" id="bisleri1L">
+            <h2>Bisleri (1 Ltr.)</h2>
+            <p class="price">MRP</p>
+            <button onclick="addToCart('Bisleri (1 Ltr.)', 0)">Add to Cart</button>
+        </div>
+
+        <!-- Dosa Section -->
+        <div class="item" id="masalaDosa">
+            <h2>Masala Dosa</h2>
+            <p class="price">Price: ₹110.00</p>
+            <button onclick="addToCart('Masala Dosa', 110.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="sadaDosa">
+            <h2>Sada Dosa</h2>
+            <p class="price">Price: ₹87.00</p>
+            <button onclick="addToCart('Sada Dosa', 87.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="vegetableDosa">
+            <h2>Vegetable Dosa</h2>
+            <p class="price">Price: ₹127.00</p>
+            <button onclick="addToCart('Vegetable Dosa', 127.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="butterMasalaDosa">
+            <h2>Butter Masala Dosa</h2>
+            <p class="price">Price: ₹132.00</p>
+            <button onclick="addToCart('Butter Masala Dosa', 132.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="butterSadaDosa">
+            <h2>Butter Sada Dosa</h2>
+            <p class="price">Price: ₹98.00</p>
+            <button onclick="addToCart('Butter Sada Dosa', 98.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="paneerDosa">
+            <h2>Paneer Dosa</h2>
+            <p class="price">Price: ₹144.00</p>
+            <button onclick="addToCart('Paneer Dosa', 144.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="muttonDosa">
+            <h2>Mutton Dosa</h2>
+            <p class="price">Price: ₹</p>
+            <button onclick="addToCart('Mutton Dosa', 0)">Add to Cart</button>
+        </div>
+
+        <!-- Egg Section -->
+        <div class="item" id="eggDosa">
+            <h2>Egg Dosa</h2>
+            <p class="price">Price: ₹156.00</p>
+            <button onclick="addToCart('Egg Dosa', 156.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="eggUttappam">
+            <h2>Egg Uttappam</h2>
+            <p class="price">Price: ₹129.00</p>
+            <button onclick="addToCart('Egg Uttappam', 129.00)">Add to Cart</button>
+        </div>
+
+        <!-- Vada Section -->
+        <div class="item" id="vada">
+            <h2>Vada (01 pc.)</h2>
+            <p class="price">Price: ₹66.00</p>
+            <button onclick="addToCart('Vada (01 pc.)', 66.00)">Add to Cart</button>
+        </div>
+
+        <!-- Idly Section -->
+        <div class="item" id="idly">
+            <h2>Idly (01 Pc.)</h2>
+            <p class="price">Price: ₹46.00</p>
+            <button onclick="addToCart('Idly (01 Pc.)', 46.00)">Add to Cart</button>
+        </div>
+
+        <!-- Cutlet Section -->
+        <div class="item" id="vegetableCutlet">
+            <h2>Vegetable Cutlet (Per Piece)</h2>
+            <p class="price">Price: ₹55.00</p>
+            <button onclick="addToCart('Vegetable Cutlet (Per Piece)', 55.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="muttonCutlet">
+            <h2>Mutton Cutlet (Per Piece)</h2>
+            <p class="price">Price: ₹89.00</p>
+            <button onclick="addToCart('Mutton Cutlet (Per Piece)', 89.00)">Add to Cart</button>
+        </div>
+
+        <!-- Sandwich Section -->
+        <div class="item" id="vegSandwich">
+            <h2>Veg. Sandwiches (Per Plate)</h2>
+            <p class="price">Price: ₹81.00</p>
+            <button onclick="addToCart('Veg. Sandwiches (Per Plate)', 81.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="eggSandwich">
+            <h2>Egg Sandwiches (Per Plate)</h2>
+            <p class="price">Price: ₹86.00</p>
+            <button onclick="addToCart('Egg Sandwiches (Per Plate)', 86.00)">Add to Cart</button>
+        </div>
+
+        <div class="item" id="cheeseSandwich">
+            <h2>Cheese Sandwiches (Per Plate)</h2>
+            <p class="price">Price: ₹104.00</p>
+            <button onclick="addToCart('Cheese Sandwiches (Per Plate)', 104.00)">Add to Cart</button>
+        </div>
+        <!-- Add more items as needed -->
+
+        <div class="cart">
+            <h2>Shopping Cart</h2>
+            <p id="cart-total">Total: ₹0</p>
+            <ul id="cart-items">
+                <!-- Cart items will be displayed here -->
+            </ul>
+            <button onclick="checkout()">Checkout</button>
+        </div>
+    </div>
+
+    <script>
+        var totalAmount = 0;
+
+        function addToCart(itemName, itemPrice) {
+            var listItem = document.createElement("li");
+            listItem.textContent = itemName + ' - ₹' + itemPrice;
+
+            totalAmount += itemPrice;
+
+            document.getElementById("cart-total").textContent = 'Total: ₹' + totalAmount;
+
+            document.getElementById("cart-items").appendChild(listItem);
+        }
+
+        function checkout() {
+            // Perform the insert operation using AJAX
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "menu2.php", true);
+            xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+            // Send the total amount to the server
+            xhr.send("orderTotal=" + totalAmount);
+
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    // Handle the response if needed
+                    console.log(xhr.responseText);
+                    alert('Checkout successful! Total amount: ₹' + totalAmount);
+                }
+            };
+        }
+    </script>
+</body>
+</html>

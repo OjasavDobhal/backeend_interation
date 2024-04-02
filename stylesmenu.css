@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.cart {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cart-total {
+    text-align: right;
+    font-weight: bold;
+}
+/* Add your styles here */
+
+/* Header Styles */
+header {
+    text-align: center;
+    background-color: #ffdb58;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Menu Styles */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 16px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    display: block;
+    margin-top: 10px;
+    background-color: #ffdb58;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #ffae00;
+}
+
+/* Cart Styles */
+.cart {
+    background-color: #eee;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cart h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.total-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* ... (previous styles) ... */
+
+/* Menu Styles */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-item {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px; /* You can adjust this value to control item width */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* ... (remaining styles) ... */

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5d3fe2f28cd9110001c36e76/1565672966540-N009NE0WSVLOMMEWOK8C/Social+House+Transparent+Logo.png'); /* Replace with your background image URL */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1500px 550px;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 500px;
+}
+
+.login-links {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-link {
+    display: block;
+    margin: 10px auto;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+}
